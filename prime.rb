@@ -3,7 +3,7 @@ def prime?(n)
     return true
   end
   if
-    n / 2 || n < 0
+    n / 2 || n < 1
     return false
   end
 end
